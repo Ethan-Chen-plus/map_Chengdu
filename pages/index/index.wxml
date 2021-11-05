@@ -1,0 +1,11 @@
+<!--pages/demo03/includePoints/includePoints.wxml-->
+<view class='box'>
+  <view class='page-body'>
+    <view class='title'>地图</view>
+    <view class='demo-box'>
+      <!--<view class='title'>mapCtx.includePoints(OBJECT)</view>-->
+      <map enable-3D='true' id='myMap' latitude="{{lat}}" longitude="{{lon}}" subkey="KEIBZ-NOIW2-5NXUZ-CY3VW-Z47KT-EIFEL"></map>
+      <button type="primary" bindtap="showGuide">查看详情</button>
+    </view>
+  </view>
+</view>
